@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #450000; /* Light gray background */
+    background-color: #000000; /* Light gray background */
     color: #333; /* Dark text color */
     margin-top: 20% ; /* Adjusted margin to push content down below fixed header */
 }
@@ -11,7 +11,7 @@ body {
 header {
     text-align: center;
     padding: 10px;
-    background-color: #510505; /* Blue header background */
+    background-color: #808080; /* Blue header background */
     color: #fff; /* White text color */
     position: fixed;
     width: 100%;
@@ -33,7 +33,7 @@ section {
 }
 
 h2 {
-    color: #510505;
+    color: #808080;
 }
 
 .image-container {
@@ -50,7 +50,7 @@ img {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #450000; /* Blue footer background */
+    background-color: #000000; /* Blue footer background */
     color: #fff; /* White text color */
     position: relative;
     clear: both;
@@ -60,7 +60,7 @@ footer {
 .resume-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #510505; /* Dark button background */
+    background-color: #808080; /* Dark button background */
     color: #fff; /* White text color */
     text-decoration: none;
     border-radius: 5px;
@@ -73,7 +73,7 @@ footer {
 
 #skills-list {
     margin-top: 20px;
-    background-color:#510505; 
+    background-color:#808080; 
     padding: 15px;
     border-radius: 5px;
 }
@@ -82,7 +82,7 @@ footer {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    background-color: #450000;
+    background-color: #000000;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
