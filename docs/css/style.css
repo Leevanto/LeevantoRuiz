@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000000; /* Light gray background */
+    background-color: #28282B; /* Light gray background */
     color: #333; /* Dark text color */
     margin-top: 20% ; /* Adjusted margin to push content down below fixed header */
 }
@@ -11,7 +11,7 @@ body {
 header {
     text-align: center;
     padding: 10px;
-    background-color: #808080; /* Blue header background */
+    background-color: #28282B; /* Blue header background */
     color: #fff; /* White text color */
     position: fixed;
     width: 100%;
@@ -38,6 +38,9 @@ h2 {
 
 .image-container {
     text-align: center;
+    background-color: #58427C ;
+    padding: 25px;
+    border-radius: 2%;
 }
 
 img {
@@ -48,9 +51,10 @@ img {
 }
 
 footer {
+    width: 100%;
     text-align: center;
     padding: 20px;
-    background-color: #000000; /* Blue footer background */
+    background-color: #28282B; /* Blue footer background */
     color: #fff; /* White text color */
     position: relative;
     clear: both;
@@ -94,4 +98,24 @@ footer {
 
 .skill-item img {
     margin-left: 10px;
+}
+
+.projectGroup img{
+    position: flex;
+    width: 40%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.projectGroup4 img{
+    position: fixed;
+    width: 40%;
+    padding-bottom: 15px;
+    
+}
+
+#certificate-image{
+    border-radius: 5%;
+    box-shadow: 0 0 5px #000000;
+    padding: 5px;
 }
