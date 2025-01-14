@@ -144,11 +144,14 @@ footer {
     margin-bottom: 5px;
 }
 
+.headshot {
+    border-radius: 5%;
+}
+
 .imgBREAK{
     text-align: center;
     margin-top: 25px;
     padding: 10px;
-    margin-left: 25%;
     background-color: #28282B;
     color: white;
     border-radius: 15%;
