@@ -10,7 +10,6 @@ body {
 
 header {
     text-align: center;
-    padding: 10px;
     background-color: #28282B; /* Blue header background */
     color: #fff; /* White text color */
     position: fixed;
@@ -57,7 +56,6 @@ img {
 footer {
     width: 100%;
     text-align: center;
-    padding: 20px;
     background-color: #28282B; /* Blue footer background */
     color: #fff; /* White text color */
     position: relative;
