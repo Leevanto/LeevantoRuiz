@@ -1,9 +1,18 @@
 body {
+    width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
  /* Light gray background */
     color: #333; /* Dark text color */
+}
+
+#headerUno {
+    margin: 0;
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+    padding: 25px;
 }
 
 .sticky {
@@ -12,24 +21,15 @@ body {
 
 }
 
-h1{
-    position: relative;
-    top: 20px;
-    
-}
-
-#headerUno {
-    text-align: center;
-    background-color: #fff;
-    width: 100%;
-    padding: 25px;
-
-}
-
 #webHeader {
     text-align: center;
     padding-block: 10px;
 
+}
+
+#containerCenter {
+    text-align: center;
+    padding-bottom: 25px;
 }
 
 .headerButton{
@@ -44,9 +44,10 @@ h1{
     background: #454B1B;
 }
 
-#containerCenter {
-    text-align: center;
-    padding-bottom: 25px;
+h1{
+    position: relative;
+    top: 20px;
+    
 }
 
 .aboutSec{
@@ -134,32 +135,6 @@ footer {
     margin-left: 10px;
 }
 
-.projectGroup{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: space-around;
-    gap: 1em;
-    align-items: center;
-    object-fit: contain;
-    
-}
-
-.projectGroup4 img{
-    position: fixed;
-    width: 40%;
-    padding-bottom: 15px;
-    
-}
-
-.projectIM{
-    height: 250px;
-    width: 500px;
-    box-shadow: 0 0 5px 1px #000000;
-
-}
-
 #certificate{
     display: flex;
     flex-direction: column;
@@ -174,24 +149,4 @@ footer {
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-
-.headshot {
-    width: 500px;
-    height: 750px;
-    border-radius: 5%;
-}
-
-.imgBREAK{
-    text-align: center;
-    margin-top: 25px;
-    padding: 10px;
-    background-color: #28282B;
-    color: white;
-    border-radius: 15%;
-}
-
-.projectVert{
-    height: 250px;
-    width: 125;
 }
