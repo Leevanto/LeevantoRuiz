@@ -3,24 +3,59 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #28282B; /* Light gray background */
+ /* Light gray background */
     color: #333; /* Dark text color */
     margin-top: 20% ; /* Adjusted margin to push content down below fixed header */
 }
 
-header {
-    text-align: center;
-    background-color: #28282B; /* Blue header background */
-    color: #fff; /* White text color */
-    position: fixed;
-    width: 100%;
+.sticky {
+    position: sticky;
     top: 0;
-    z-index: 1000;
+
 }
 
-#header-images {
-    display: flex;
-    justify-content: space-between;
+h1{
+    position: relative;
+    top: 20px;
+    
+}
+
+#headerUno {
+    background-color: #fff;
+    width: 100%;
+
+}
+
+#webHeader {
+    text-align: center;
+    padding-block: 10px;
+
+}
+
+.headerButton{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 35px;
+    color: #D6D3D1;
+    border: #D6D3D1;
+    border-radius: 5px;
+    background: #454B1B;
+}
+
+#containerCenter {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.aboutSec{
+    background-color: #454B1B;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 25px;
 }
 
 section {
