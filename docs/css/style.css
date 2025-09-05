@@ -44,7 +44,7 @@ body {
     border: #D6D3D1;
     border-radius: 5px;
     background: #454B1B;
-    display:inline-flex ;
+
 }
 
 h1{
@@ -60,6 +60,13 @@ h1{
     width: 100%;
     margin: 0;
     padding-bottom: 25px;
+}
+
+#introduction {
+    background-position: center;
+    background-size: cover;
+    background-image:url("images/sidebar1.jpg");
+    padding: 15px;
 }
 
 section {
@@ -145,8 +152,8 @@ footer {
 }
 
 #certificate-image{
-    width: 500px;
-    height: 325px;
+    max-width: 100%;
+    height: auto;
     border-radius: 5%;
     box-shadow: 0 0 5px #000000;
     padding: 5px;
